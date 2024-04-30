@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5EBD4233-A0E3-4821-8880-A56C0EE70355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraWeb", "src\HydraWeb\HydraWeb.csproj", "{8FA1A97E-C857-47FF-A93A-829C399F196F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraAPI", "src\HydraAPI\HydraAPI.csproj", "{99441BC5-B3F3-4161-B06D-3136A34460A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraDataAccess", "src\HydraDataAccess\HydraDataAccess.csproj", "{EAF626C3-F5D1-49BD-9C05-C9B1C8CE5509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraBusiness", "src\HydraBusiness\HydraBusiness.csproj", "{1B58C26D-1FF3-4CAF-BF7A-521140BF6C04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FA1A97E-C857-47FF-A93A-829C399F196F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA1A97E-C857-47FF-A93A-829C399F196F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA1A97E-C857-47FF-A93A-829C399F196F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA1A97E-C857-47FF-A93A-829C399F196F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99441BC5-B3F3-4161-B06D-3136A34460A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99441BC5-B3F3-4161-B06D-3136A34460A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99441BC5-B3F3-4161-B06D-3136A34460A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99441BC5-B3F3-4161-B06D-3136A34460A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF626C3-F5D1-49BD-9C05-C9B1C8CE5509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF626C3-F5D1-49BD-9C05-C9B1C8CE5509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF626C3-F5D1-49BD-9C05-C9B1C8CE5509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF626C3-F5D1-49BD-9C05-C9B1C8CE5509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B58C26D-1FF3-4CAF-BF7A-521140BF6C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B58C26D-1FF3-4CAF-BF7A-521140BF6C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B58C26D-1FF3-4CAF-BF7A-521140BF6C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B58C26D-1FF3-4CAF-BF7A-521140BF6C04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FA1A97E-C857-47FF-A93A-829C399F196F} = {5EBD4233-A0E3-4821-8880-A56C0EE70355}
+		{99441BC5-B3F3-4161-B06D-3136A34460A2} = {5EBD4233-A0E3-4821-8880-A56C0EE70355}
+		{EAF626C3-F5D1-49BD-9C05-C9B1C8CE5509} = {5EBD4233-A0E3-4821-8880-A56C0EE70355}
+		{1B58C26D-1FF3-4CAF-BF7A-521140BF6C04} = {5EBD4233-A0E3-4821-8880-A56C0EE70355}
+	EndGlobalSection
+EndGlobal

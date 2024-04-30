@@ -1,0 +1,31 @@
+@{
+    Layout = "_LoginLayout";
+}
+
+@model HydraWeb.ViewModels.Account.UserLoginViewModel;
+
+
+    <div id="login-container">
+        <div>
+            <img src="~/ASSET/logo hydra.png">
+        </div>
+
+        <div>
+            <h1>Login</h1>
+            <div>
+                <form asp-action="Login" method="post" asp-controller="Account">
+                    <input type="text" asp-for="@Model.Username" placeholder="Username...">
+                    <br>
+                    <br>
+                    <input type="password" asp-for="@Model.Password" placeholder="Password...">
+                    <br>
+                    <br>
+                    <button type="submit">Login</button>
+                    <br>
+                    <div>
+                        <span>@ViewBag.Message</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

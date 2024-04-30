@@ -1,0 +1,38 @@
+@using System.Security.Claims;
+
+<div id="nav-container">
+    <div id="nav-header">
+        <img src="~/ASSET/logo hydra.png">
+        <p>Hydra Bootcamp</p>
+    </div>
+
+    <div id="nav-user-container">
+        <i class="far fa-user"></i>
+        <div>
+            <p>@User.FindFirstValue("username")</p>
+            @if(@User.FindFirstValue("username").ToLower().Contains("admin")){
+                <p>Administrator</p>
+            }
+            else if(@User.FindFirstValue("username").ToLower().Contains("trainingmanager")){
+                <p>Training Manager</p>
+            }
+        </div>
+    </div>
+
+    <div id="nav-menu">
+        <div>
+            <a>Dashboard</a>
+            <i class="fas fa-tablet"></i>
+        </div>
+
+        <div>
+            <a href="">Candidate</a>
+            <i class="fas fa-user-tag"></i>
+        </div>
+
+        <div>
+            <a href="">Bootcamp</a>
+            <i class="fas fa-campground"></i>
+        </div>
+    </div>
+</div>

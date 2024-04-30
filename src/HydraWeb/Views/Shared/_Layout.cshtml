@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/CSS/style.css">
+    <title>Document</title>
+</head>
+<body id="layout-body">
+    <div id="layout-container">
+        <partial name="_Nav"></partial>
+        <partial name="_Header"></partial>
+        <div id="main-container">
+            @RenderBody()
+        </div>
+        <partial name="_Footer"></partial>
+    </div>
+</body>
+</html>
+<script src="https://kit.fontawesome.com/84a5359279.js" crossorigin="anonymous"></script>
